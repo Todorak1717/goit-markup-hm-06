@@ -401,7 +401,6 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
 .one-item{
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/retina/Dark-bgmobile.jpg);
     display:block ;
-    height: 432px;
     max-width: 320px;
     background-size: cover;
     background-color: #2e2f42;
@@ -447,7 +446,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
        margin-left: auto;
        height: 56px;
        border-radius: 4px;
-       margin-top: 48px;
+       margin-top: 72px;
        min-width: 169px;
        transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 padding: 16px 32px;
@@ -468,8 +467,8 @@ margin-top: 72px;
 .one-item{
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/retina/Dark-bgtablet.jpg);
     max-width: 768px;
-    height: 436px;
-    
+
+  padding: 112px 0;
    
 }
 
@@ -479,29 +478,179 @@ margin-top: 72px;
 font-size: 56px;
 line-height: 1.07143;
 letter-spacing: 0.02em;
-text-align: center;
-color: #fff;
-display: block;
-max-width: 496px;
+
+width: 496px;
 align-items: center;
-margin-left: auto;
-margin-right: auto;
+
+
 
 
 }
 .button-link-design{
 margin-top:36px;
-margin-bottom:112px;
+
 }
 }
-
-    
-
-
 /*section 1 tablet */
 /*section 1 desktop */
+@media only screen and (min-width:1158px){
+.one-item{
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/retina/people-officedesktop.jpg);
+    max-width: 1440px;
+    padding: 188px 0;
+}
+.button-link-design{
+        margin-top: 48px;
+    }
+}
+/*section 1 desktop */
+/*section 2 mobile */
+.list-section-two{
+    max-width:320px;
+}
+.section-two-item{
+    padding-top:96px;
+    padding-bottom: 96px;
+}
+.section-list-names{
+    font-weight: 700;
+font-size: 36px;
+line-height: 1.11111;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+margin-bottom: 8px;
+}
+.character-option-list{
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+padding-bottom: 72px;
+width:288px;
+}
 
+
+
+@media only screen and (max-width:767px){
+
+}
+/*section 2 mobile */
+/*section 2 tablet */
+@media only screen and (min-width:768px){
+    .section-list-character{
+        display: flex;
+        column-gap: 24px;
+        flex-wrap: wrap;
+        margin-right: auto;
+        row-gap: 72px;
+     }
+     .section-list-names{
+        text-align: left;
+     }
+     
+     .character-option-list{
+        padding-bottom: 0;
+        width: 356px;
+     }
+
+     .list-section-two{
+        max-width:768px;
+    }
+}
+@media only screen and (min-width:768px){
+}
+/*section 2 tablet */
+/*section 2 desktop */
+@media only screen and (max-width:1157px){
+    .section-two-icon{
+        display: none;
+    }
+}
+@media only screen and (min-width:1158px){
+    .section-two-item{
+        padding-top:120px;
+        padding-bottom: 120px;
+    }
+    .list-section-two{
+        max-width: 1158px;
+    }
+    .icon-class{
+        display: flex;
+        gap: 24px;
+    }
+    .icon-foto{
+        border: 1px solid #8e8f99;
+    border-radius: 4px;
+    background: #f4f4fd;
+    width: 264px;
+    margin-bottom: 8px;
+    
+    }
+    .section-two-icon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 112px;
+        background-color: #f4f4fd;
+        border-radius: 4px;
+        margin-bottom: 8px;
+        border: 1px solid #8e8f99;
+       
+    }
+    .section-list-character{
+     gap: 24px;
+    text-align: left;
+display: flex;
+flex-wrap: wrap;
+ margin-right: auto;
+    
+    }
+    .sections-number-list{
+     
+        width: calc((100% - 72px) / 4);
+        }
+    .sections-number-list:last-child{
+    margin-right: 0;
+    }
+     .section-list-names{
+        
+       margin-bottom: 8px; 
+       font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+        }
+        .character-option-list{
+        font-weight: 400;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: #434455;
+            width:264px;
+ }
+      .icon-list-section-tree{
+        margin-top: 8px;
+    
+      }
+    }
+/*section 2 desktop */
+/*section 3 mobile */
+
+
+
+
+/*section 3 mobile */
+/*section 3 tablet */
+@media only screen and (min-width:768px){
+
+
+}
+/*section 3 tablet */
+/*section 3 desktop */
 @media only screen and (min-width:1158px){
 
 }
-/*section 1 desktop */
+/*section 3 desktop */
