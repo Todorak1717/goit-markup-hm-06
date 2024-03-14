@@ -359,46 +359,27 @@ color: #2e2f42;
 .section-team-foto{
     background: #f4f4fd;
     max-width: 1440px;
-   
-  
-    
-    
-    
     }
-
-    
 .section-font-style{
         gap: 24px;
         display: flex;
-      
-        
-        
-        
-}
+      }
 .icon-list-section-tree{
     display: flex;
     justify-content: center;
     gap: 24px;
     background-repeat: no-repeat;
     background-position: center;
-    
-
 }
 .icon-list{
-    
-    display: flex;
+     display: flex;
     margin-top:8px;
     padding-bottom:32px;
     gap:24px;
     padding-left:16px;
     padding-right:16px;
     fill: #f4f4fd;
-  
-   
-  
-}
-
-
+  }
 .id-pictures-website{
     width: 100%;
     height: 100%;
@@ -409,9 +390,7 @@ color: #2e2f42;
     justify-content: center;
     color: #fff;
     transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-   
 }
-
 .id-pictures-website:hover,
 .id-pictures-website:focus{
     background-color: #404bbf;
@@ -419,21 +398,13 @@ color: #2e2f42;
 .icon-id-repeat{
     fill: #f4f4fd;
 }
-
 .icon-id-one{
     display: flex;
     justify-content: center;
     align-items:center;
     width:40px;
     height: 40px;
-    
-
-
-}
-
-   
-
-
+    }
 .foto-people{
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
@@ -441,9 +412,6 @@ color: #2e2f42;
 }
 .names-workers{
     padding: 32px 0;
-
-
-   
 }
 .name-person-work{
     font-weight: 500;
@@ -453,7 +421,6 @@ color: #2e2f42;
     color: #2e2f42;
   text-align: center;
   margin-bottom: 8px;
-  
   text-decoration: none;
     }
     .team-foto-people{
@@ -462,7 +429,6 @@ color: #2e2f42;
     .section-font-style{
         list-style-type: none;
     }
-
 .character-option-list-second{
     font-weight: 400;
 font-size: 16px;
@@ -470,16 +436,8 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
 color: #434455;
-
 }
-
-
-
-
-
 /* ====== section4===========*/
-
-
 .list-images{
     display: flex;
     column-gap: 24px;
