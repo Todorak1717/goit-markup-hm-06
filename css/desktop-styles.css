@@ -83,14 +83,12 @@ padding-bottom: 24px;
 .name-link{
     position: relative;
     font-weight: 500;
-   
-    font-size: 16px  ;
+   font-size: 16px  ;
     line-height: 1.5;
     letter-spacing: 0.02em;
    color: #2e2f42;
    padding:26px 0;
-   
-   text-transform:initial;
+    text-transform:initial;
    text-decoration: none;
    transition : color 250ms cubic-bezier(0.4, 0, 0.2, 1);
      
