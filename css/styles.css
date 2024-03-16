@@ -1227,11 +1227,14 @@ visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
   .is-open{
-    opacity: 0;
+    opacity: 1;
+    pointer-events: auto;
     visibility: visible;
+  
 
 }
 .modal-window-info{
+     
     position: absolute;
     top:50%;
     left:50%;
