@@ -29,14 +29,11 @@ main{
 }
 
 .body {
-  
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color:  #FFFFFF; 
- 
-    
-   
-}
+  }
+
 
 .logo-name-web{
     font-family: "Raleway", sans-serif;
@@ -158,8 +155,9 @@ font-weight: 700;
         padding-top: 24px;
         padding-bottom: 24px;
         }
+
         .name-link:focus,
-    .name-link:hover{
+         .name-link:hover{
         color: #404BBF;
     }
 .current{
@@ -221,6 +219,10 @@ font-weight: 700;
 /* header tablet*/
 /* header desktop*/
 @media   screen and (min-width:1158px){
+    .button {
+        cursor: pointer;
+        display: block;
+      }
   
     .logo-style-list{
         display: flex;
@@ -440,7 +442,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
    }
  
    .button-type{
-    display:block ;
+  
    
     padding: 0 15px
    }
@@ -460,8 +462,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
        margin-left: auto;
        height: 56px;
        border-radius: 4px;
-      
-       min-width: 169px;
+      min-width: 169px;
        transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 padding: 16px 32px;
 
