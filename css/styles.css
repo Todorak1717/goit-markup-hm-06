@@ -27,6 +27,7 @@ ul,ol,li{
 main{
     flex-grow: 1;
 }
+
 .body {
   
     font-family: "Roboto", sans-serif;
@@ -530,7 +531,7 @@ margin-top:36px;
 .list-section-two{
     width:320px;
     padding:16px 16px;
-    margin: 0 ;
+    margin: 0  auto;
 }
 .section-two-item{
     padding-top:96px;
@@ -559,15 +560,12 @@ width:288px;
 margin-bottom: 0;
 }
 
-
-@media  screen and (max-width:767px){
-
-}
 /*section 2 mobile */
 /*section 2 tablet */
 @media  screen and (min-width:768px){
     .list-section-two{
         width:768px;
+       
      }
        
     .section-list-character{
@@ -596,18 +594,21 @@ margin-bottom: 0;
     .section-two-icon{
         display: none;
     }
+
 }
 @media  screen and (min-width:1158px){
     .section-two-item{
-        
         padding-top:120px;
         padding-bottom: 120px;
     }
+
     .list-section-two{
         width: 1158px;
-        
+       
         padding: 0 15px;
+       
     }
+  
     .icon-class{
         display: flex;
         gap: 24px;
@@ -771,9 +772,7 @@ margin-bottom: 12px;
 /*section 3 tablet */
 @media  screen and (min-width:768px){
 
-.section-team-foto{
-    max-width: 768px;
-}
+
 .section-font-style{
     display: flex;
     column-gap: 24px;
@@ -793,10 +792,7 @@ margin-bottom: 12px;
 /*section 3 desktop */
 @media  screen and (min-width:1158px){
     
-        .section-team-foto{
-            max-width: 1440px;
-        }
-    
+      
     .section-font-style{
          flex-wrap: nowrap;
       }
@@ -886,9 +882,7 @@ color: #2e2f42;
        flex-direction: row;
        gap: 48px 24px;
     }
-.section-team-foto-two{
-    max-width: 768px;
-}
+
  
 .foto-app{
     width: calc((100% - 24px) / 2);
@@ -898,8 +892,7 @@ color: #2e2f42;
 /*section 4 tablet */
 /*section 4 desktop */
 @media  screen and  (min-width:1158px) {
-    .section-team-foto-two{
-        max-width:1440px;}
+   
     
     
   .list-images{
