@@ -154,19 +154,7 @@ font-weight: 700;
         display: none;
 
     }
-    /* .nav-studio-logo {
-        font-weight:  700;
-        font-size:18px; 
-        line-height: .16667;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #4d5ae5;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-       width:497px;
-       
-    } */
+ 
     .name-link{
         position: relative;
         font-weight: 500;
@@ -302,10 +290,11 @@ font-weight: 700;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-   width: 115px;
+
     list-style-type: none;
     text-decoration: none;
     margin-right: 76px;
+    padding: 17px 0;
 
 }
 .logo-span-studio{
@@ -322,7 +311,7 @@ font-weight: 700;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    min-height: 55px;
+   
  }
 
 
@@ -375,7 +364,7 @@ height:24px ;
 top:24px ;
 right: 16px;
 border-radius: 50%;
-
+display: flex;
 align-items:center;
 justify-content: center;
 
